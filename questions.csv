@@ -1,0 +1,116 @@
+id,genre,level,question_text,option_a,option_b,option_c,option_d,correct_option
+1,"Human Anatomy",Easy,"What is the powerhouse of the cell?",Nucleus,Mitochondria,Ribosome,"Golgi Apparatus",B
+2,"Human Anatomy",Easy,"How many bones are in the adult human body?",206,208,210,212,A
+3,"Human Anatomy",Easy,"Which organ pumps blood?",Brain,Lungs,Heart,Liver,C
+4,"Human Anatomy",Easy,"Which system controls body movements?",Digestive,Nervous,Respiratory,Circulatory,B
+5,"Human Anatomy",Easy,"Which organ is responsible for filtering blood?",Heart,Kidneys,Liver,Lungs,B
+6,"Human Anatomy",Medium,"Which blood type is the universal donor?",A,B,O,AB,C
+7,"Human Anatomy",Medium,"What is the largest organ in the human body?",Liver,Skin,Heart,Brain,B
+8,"Human Anatomy",Medium,"Where are red blood cells produced?",Lungs,Heart,"Bone Marrow",Liver,C
+9,"Human Anatomy",Medium,"What is the function of hemoglobin?","Store fat","Carry oxygen","Digest proteins","Produce hormones",B
+10,"Human Anatomy",Medium,"Which part of the brain controls vision?",Cerebrum,Cerebellum,"Occipital Lobe",Medulla,C
+11,"Human Anatomy",Hard,"Which part of the brain controls balance?",Cerebrum,Cerebellum,Medulla,Hypothalamus,B
+12,"Human Anatomy",Hard,"What is the smallest bone in the human body?",Femur,Stapes,Radius,Ulna,B
+13,"Human Anatomy",Hard,"Which hormone regulates blood sugar?",Insulin,Adrenaline,Cortisol,Estrogen,A
+14,"Human Anatomy",Hard,"What is the function of the lymphatic system?","Digest food","Transport oxygen","Fight infections","Store energy",C
+15,"Human Anatomy",Hard,"Which organ produces insulin?",Liver,Pancreas,Kidneys,Gallbladder,B
+16,"Math Magic",Easy,"What is 15 + 20?",30,35,40,25,B
+17,"Math Magic",Easy,"What is the square root of 64?",6,7,8,9,C
+18,"Math Magic",Easy,"Which number is a prime number?",10,15,17,21,C
+19,"Math Magic",Easy,"What is 5 multiplied by 6?",30,25,35,40,A
+20,"Math Magic",Easy,"What is 100 divided by 4?",20,25,30,40,B
+21,"Math Magic",Medium,"What is 25% of 200?",50,25,75,100,A
+22,"Math Magic",Medium,"Solve: 3x = 18. Find x.",3,6,9,12,B
+23,"Math Magic",Medium,"What is 9 squared?",72,81,90,99,B
+24,"Math Magic",Medium,"What is the value of π (pi) approximately?",2.14,3.14,4.14,5.14,B
+25,"Math Magic",Medium,"What is the result of 2³?",4,6,8,9,C
+26,"Math Magic",Hard,"What is the value of 3⁴?",27,81,64,49,B
+27,"Math Magic",Hard,"What is the square root of 144?",10,11,12,13,C
+28,"Math Magic",Hard,"If x² = 49, what is x?",5,6,7,8,C
+29,"Math Magic",Hard,"Solve: 2x + 5 = 15. Find x.",2,5,7,10,B
+30,"Math Magic",Hard,"Find the sum of angles in a triangle.",90°,120°,180°,360°,C
+31,"Math Magic",Hard,"What is log(100) to base 10?",0,1,2,10,C
+32,"Math Magic",Hard,"What is the factorial of 5?",60,100,120,150,C
+33,"Math Magic",Hard,"What is 8% of 200?",12,14,16,18,C
+34,"Math Magic",Hard,"If a² + b² = c², what theorem is this?","Euler’s Theorem","Fermat’s Theorem","Pythagorean Theorem","Pascal’s Theorem",C
+35,"Math Magic",Hard,"What is 1+2+3+...+10?",50,55,60,65,B
+36,"Around the World",Easy,"Which is the largest continent?",Europe,Asia,Africa,Australia,B
+37,"Around the World",Easy,"What is the capital of France?",Berlin,Madrid,Paris,Rome,C
+38,"Around the World",Easy,"Which country is known as the Land of the Rising Sun?",China,Japan,Korea,Vietnam,B
+39,"Around the World",Easy,"Which river is the longest in the world?",Amazon,Nile,Yangtze,Mississippi,B
+40,"Around the World",Easy,"What is the currency of the USA?",Euro,Dollar,Pound,Yen,B
+41,"Around the World",Medium,"Which desert is the largest in the world?",Sahara,Gobi,Kalahari,Atacama,A
+42,"Around the World",Medium,"Mount Everest is located in which country?",Nepal,India,China,Pakistan,A
+43,"Around the World",Medium,"Which ocean is the largest?",Atlantic,Indian,Pacific,Arctic,C
+44,"Around the World",Medium,"Which country has the most time zones?",USA,Russia,France,China,C
+45,"Around the World",Medium,"Which country has the Great Wall?",India,Japan,China,Mongolia,C
+46,"Around the World",Hard,"Which country has the most spoken languages?",India,China,USA,"Papua New Guinea",D
+47,"Around the World",Hard,"Which city has the Colosseum?",Athens,Rome,Paris,Cairo,B
+48,"Around the World",Hard,"Which country has the most islands?",Indonesia,Sweden,Canada,Philippines,B
+49,"Around the World",Hard,"Which African country has pyramids?",Egypt,Sudan,Libya,Morocco,A
+50,"Around the World",Hard,"Which country is known for its fjords?",Norway,Denmark,Sweden,Finland,A
+51,"Around the World",Hard,"Which is the most populated city in the world?","New York",Tokyo,Shanghai,Delhi,B
+52,"Around the World",Hard,"Which country is home to Machu Picchu?",Brazil,Peru,Argentina,Chile,B
+53,"Around the World",Hard,"What is the smallest country in the world?",Monaco,"San Marino","Vatican City",Liechtenstein,C
+54,"Around the World",Hard,"What is the national animal of Australia?",Kangaroo,Koala,Emu,Dingo,A
+55,"Around the World",Hard,"Which city is known as the Big Apple?","Los Angeles","New York",Chicago,"San Francisco",B
+56,"Food Feast",Easy,"What is the main ingredient in guacamole?",Avocado,Tomato,Onion,Pepper,A
+57,"Food Feast",Easy,"Which fruit is known as the king of fruits?",Apple,Banana,Mango,Pineapple,C
+58,"Food Feast",Easy,"Which drink is made from fermented grapes?",Beer,Whiskey,Wine,Vodka,C
+59,"Food Feast",Easy,"What is the main ingredient in hummus?",Chickpeas,Lentils,Beans,Corn,A
+60,"Food Feast",Easy,"Which country is famous for sushi?",China,Japan,Thailand,Korea,B
+61,"Food Feast",Medium,"What is the most consumed beverage in the world?",Tea,Coffee,Soda,Juice,A
+62,"Food Feast",Medium,"What is the main ingredient in traditional pasta?",Rice,Wheat,Corn,Oats,B
+63,"Food Feast",Medium,"Which country is famous for tacos?",Spain,Mexico,Italy,Argentina,B
+64,"Food Feast",Medium,"What is the main ingredient in miso soup?",Rice,Soybeans,Wheat,Seaweed,B
+65,"Food Feast",Medium,"Which nut is used to make peanut butter?",Almond,Cashew,Peanut,Walnut,C
+66,"Food Feast",Hard,"What is the hottest chili pepper in the world?","Ghost Pepper","Carolina Reaper",Habanero,Jalapeño,B
+67,"Food Feast",Hard,"Which cheese is traditionally used in pizza?",Cheddar,Mozzarella,Parmesan,Gorgonzola,B
+68,"Food Feast",Hard,"Which country is famous for croissants?",Italy,France,Germany,Belgium,B
+69,"Food Feast",Hard,"What is the main ingredient in traditional kimchi?",Carrot,Cabbage,Radish,Spinach,B
+70,"Food Feast",Hard,"What type of food is a falafel?",Meat,Vegetable,"Fried Chickpeas","Rice Dish",C
+71,"Food Feast",Hard,"What is the most expensive spice in the world?",Vanilla,Cinnamon,Saffron,Nutmeg,C
+72,"Food Feast",Hard,"What is the main ingredient in pesto sauce?",Tomato,Basil,Parsley,Oregano,B
+73,"Food Feast",Hard,"What is the most consumed meat worldwide?",Beef,Pork,Chicken,Fish,B
+74,"Food Feast",Hard,"What is tofu made from?",Soybeans,Rice,Corn,Wheat,A
+75,"Food Feast",Hard,"Which fruit has the highest water content?",Apple,Watermelon,Orange,Strawberry,B
+76,"Movie Fest",Easy,"Who played Iron Man in the Marvel movies?","Chris Evans","Robert Downey Jr.","Chris Hemsworth","Tom Holland",B
+77,"Movie Fest",Easy,"Which movie features the song "Let It Go"?",Frozen,Tangled,Moana,Brave,A
+78,"Movie Fest",Easy,"Which movie won the first-ever Oscar for Best Picture?",Casablanca,Wings,"Gone with the Wind","Citizen Kane",B
+79,"Movie Fest",Easy,"Who is the main villain in "The Dark Knight"?",Bane,Joker,Scarecrow,Penguin,B
+80,"Movie Fest",Easy,"Which actor played Jack in Titanic?","Brad Pitt","Leonardo DiCaprio","Tom Cruise","Johnny Depp",B
+81,"Movie Fest",Medium,"What is the highest-grossing film of all time?",Avatar,"Avengers: Endgame",Titanic,"Star Wars",A
+82,"Movie Fest",Medium,"Which movie franchise features "The Boy Who Lived"?","Lord of the Rings","Harry Potter",Narnia,"Percy Jackson",B
+83,"Movie Fest",Medium,"Which movie is based on the novel by J.R.R. Tolkien?","Harry Potter",Narnia,"The Lord of the Rings",Eragon,C
+84,"Movie Fest",Medium,"Who directed "Inception"?","Steven Spielberg","James Cameron","Christopher Nolan","Quentin Tarantino",C
+85,"Movie Fest",Medium,"Which film features a ring that must be destroyed?","Harry Potter","The Lord of the Rings",Narnia,Eragon,B
+86,"Game On",Easy,"Which company created the PlayStation?",Microsoft,Sony,Nintendo,Sega,B
+87,"Game On",Easy,"Which game features the character Mario?",Zelda,Sonic,"Super Mario","Donkey Kong",C
+88,"Game On",Easy,"Which game features the phrase "The cake is a lie"?",Portal,Half-Life,Bioshock,Doom,A
+89,"Game On",Easy,"What is the best-selling video game of all time?",Minecraft,"GTA V",Tetris,Fortnite,A
+90,"Game On",Easy,"Which game features a battle royale mode?","GTA V",Fortnite,"Need for Speed","The Sims",B
+91,"Game On",Medium,"Which game series is known for its hidden blade weapons?","Assassin’s Creed","Dark Souls",Hitman,"Far Cry",A
+92,"Game On",Medium,"Which company developed Halo?",EA,Activision,Microsoft,Bungie,D
+93,"Game On",Medium,"What is the name of the main character in The Witcher series?",Geralt,Ezio,Kratos,Arthur,A
+94,"Game On",Medium,"Which game has the map called "Erangel"?",PUBG,"Call of Duty",Fortnite,"Apex Legends",A
+95,"Game On",Medium,"Which is a MOBA game?",Minecraft,"Dota 2",Skyrim,Fallout,B
+96,"Game On",Hard,"Which game introduced the "Creeper" enemy?",Fortnite,Minecraft,Doom,Half-Life,B
+97,"Game On",Hard,"Which game developer created The Elder Scrolls?",Ubisoft,Bethesda,Rockstar,"CD Projekt",B
+98,"Game On",Hard,"What is the rarest material in Minecraft?",Diamond,Emerald,Netherite,Obsidian,C
+99,"Game On",Hard,"Which game is set in the city of Los Santos?","Watch Dogs","Cyberpunk 2077","GTA V","Sleeping Dogs",C
+100,"Game On",Hard,"Which game franchise features Master Chief?","Call of Duty",Halo,"Gears of War",Destiny,B
+101,"Game On",Hard,"What does MMORPG stand for?","Massive Multiplayer Online Role-Playing Game","Modern Military Online Role-Playing Game","Multi-Media Online Racing Platform","Massive Mecha Online Robot Play",A
+102,"Game On",Hard,"Which game features a character named Link?","Final Fantasy","The Legend of Zelda","Elder Scrolls","Fire Emblem",B
+103,"Game On",Hard,"What is the name of the AI in Halo?",Siri,Alexa,Cortana,Friday,C
+104,"Game On",Hard,"Which game first introduced a battle royale mode?",PUBG,Fortnite,H1Z1,"Apex Legends",C
+105,"Game On",Hard,"Which game series features a Vault-Tec corporation?",Half-Life,Metro,Fallout,Bioshock,C
+106,"Movie Fest",Medium,"Which director is known for making "The Dark Knight" trilogy?","Steven Spielberg","Christopher Nolan","James Cameron","Quentin Tarantino",B
+107,"Movie Fest",Medium,"Which movie features the iconic line, "May the Force be with you"?","Star Trek","Guardians of the Galaxy","Star Wars",Dune,C
+108,"Movie Fest",Medium,"Which actor plays Deadpool?","Chris Pratt","Ryan Reynolds","Hugh Jackman","Chris Hemsworth",B
+109,"Movie Fest",Medium,"Which animated movie features a robot named WALL-E?","Big Hero 6","Inside Out",WALL-E,Up,C
+110,"Movie Fest",Medium,"Which movie is about a clown that haunts children in Derry?","A Nightmare on Elm Street",IT,Halloween,"The Conjuring",B
+111,"Movie Fest",Hard,"Which movie won the Best Picture Oscar in 2020?",Joker,Parasite,1917,"Once Upon a Time in Hollywood",B
+112,"Movie Fest",Hard,"What is the name of the AI system in the Terminator movies?",Ultron,Jarvis,Skynet,"HAL 9000",C
+113,"Movie Fest",Hard,"Which movie features the quote, "You talking to me?"",Goodfellas,"Taxi Driver",Scarface,"The Godfather",B
+114,"Movie Fest",Hard,"Which director is known for mind-bending films like "Inception" and "Tenet"?","Martin Scorsese","Christopher Nolan","Quentin Tarantino","Denis Villeneuve",B
+115,"Movie Fest",Hard,"Which horror movie villain wears a white mask and wields a knife?","Freddy Krueger","Jason Voorhees","Michael Myers",Ghostface,C

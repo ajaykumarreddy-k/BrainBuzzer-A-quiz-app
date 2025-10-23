@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Buzzer - Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Main Menu -->
+    <div id="main-menu" class="interface active">
+       
+        
+        <main>
+            <div class="intro">
+                <h2>Brain Buzzer</h2>
+                <p>Test your knowledge with our fun and challenging quizzes. Choose a category below to get started!</p>
+            </div>
+            
+            <div class="categories">
+                <div class="category-card" data-category="Human Anatomy">
+                    <div class="category-icon">
+                        <img src="brain-icon.jpg" alt="Human Anatomy Icon">
+                    </div>
+                    <div class="category-info">
+                        <h3>Human Anatomy</h3>
+                        <p>Test your knowledge about the human body</p>
+                        <div class="category-footer">
+                            <span>10 questions</span>
+                            <button class="start-btn">Start <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Math Magic">
+                    <div class="category-icon">
+                        <img src="math-icon.jpg" alt="Math Magic Icon">
+                    </div>
+                    <div class="category-info">
+                        <h3>Math Magic</h3>
+                        <p>Challenge your mathematical skills</p>
+                        <div class="category-footer">
+                            <span>10 questions</span>
+                            <button class="start-btn">Start <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="Around the World">
+                    <div class="category-icon">
+                        <img src="globe-icon.jpg" alt="Around the World Icon">
+                    </div>
+                    <div class="category-info">
+                        <h3>Around the World</h3>
+                        <p>Explore geography and cultures</p>
+                        <div class="category-footer">
+                            <span>10 questions</span>
+                            <button class="start-btn">Start <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="Food Feast">
+                    <div class="category-icon">
+                        <img src="food-icon.jpg" alt="Food Feast Icon">
+                    </div>
+                    <div class="category-info">
+                        <h3>Food Feast</h3>
+                        <p>Test your culinary knowledge</p>
+                        <div class="category-footer">
+                            <span>10 questions</span>
+                            <button class="start-btn">Start <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="Movie Fest">
+                    <div class="category-icon">
+                        <img src="movie-icon.jpg" alt="Movie Fest Icon">
+                    </div>
+                    <div class="category-info">
+                        <h3>Movie Fest</h3>
+                        <p>Questions about films and cinema</p>
+                        <div class="category-footer">
+                            <span>10 questions</span>
+                            <button class="start-btn">Start <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="category-card" data-category="Game On">
+                    <div class="category-icon">
+                        <img src="game-icon.jpg" alt="Game On Icon">
+                    </div>
+                    <div class="category-info">
+                        <h3>Game On</h3>
+                        <p>Test your gaming knowledge</p>
+                        <div class="category-footer">
+                            <span>10 questions</span>
+                            <button class="start-btn">Start <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Quiz Interface -->
+    <div id="quiz-interface" class="interface">
+        <header class="quiz-header">
+            <div class="quiz-info">
+                <h2 id="category-title">Category Name</h2>
+                <div class="quiz-progress">
+                    <span id="current-question">1</span>/<span id="total-questions">10</span>
+                </div>
+            </div>
+            <div class="quiz-timer">
+                <i class="fas fa-clock"></i> <span id="timer">00:00</span>
+            </div>
+        </header>
+
+        <main class="quiz-main">
+            <div id="category-title" class="category-title"></div>
+            <div id="current-score" class="current-score"></div>
+            <div class="question-container">
+                <h3 id="question-text">Question text will appear here</h3>
+                <div class="options-container" id="options-container">
+                    <!-- Options will be populated via JavaScript -->
+                </div>
+            </div>
+            
+            <div class="quiz-navigation">
+                <button id="prev-btn" class="nav-btn" disabled>Previous</button>
+                <button id="next-btn" class="nav-btn">Next</button>
+                <button id="submit-btn" class="submit-btn" style="display: none;">Submit Quiz</button>
+            </div>
+        </main>
+        
+        <div class="quiz-feedback" id="feedback-container" style="display: none;">
+            <div class="feedback-content">
+                <h3 id="feedback-title">Correct!</h3>
+                <p id="feedback-message">Explanation will appear here</p>
+                <button id="continue-btn" class="continue-btn">Continue</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Remove the results interface section -->
+    <!-- <div id="results-interface">
+        <div class="results-container">
+            <div id="confetti-container"></div>
+            <button id="close-results" class="close-btn">×</button>
+            <h2>Quiz Complete!</h2>
+            <div class="score-display">
+                <p id="score-percentage">0%</p>
+            </div>
+            <div class="results-details">
+                <div>
+                    <h3>Correct Answers</h3>
+                    <p id="correct-answers">0</p>
+                </div>
+                <div>
+                    <h3>Total Questions</h3>
+                    <p id="total-questions-results">0</p>
+                </div>
+            </div>
+            <div class="results-actions">
+                <button id="home-btn" class="action-btn">Back to Home</button>
+            </div>
+        </div>
+    </div> -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
